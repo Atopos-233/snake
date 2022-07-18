@@ -2,9 +2,9 @@
 TITLE = "Atopos'Snake"
 GRID_SIZE = 30
 BLANK_SIZE = 40
-ROWS = 20
-COLS = 20
-FPS = 20
+ROWS = 25
+COLS = 25
+FPS = 30
 FONT_NAME = 'impactfont'
 
 

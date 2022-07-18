@@ -48,6 +48,8 @@ class Game:
     def play(self):
         while not self.exit:
             self._new()
+            self._music()
+            
             while not self.game_over:
                 self._event()
                 self._move()
@@ -166,6 +168,12 @@ class Game:
                     self.direction = (0, -1)
                 elif event.key == pg.K_RIGHT and self.direction != (0, -1):
                     self.direction = (0, 1)    
+
+    def _music(self):
+        filepath = r"bgm.mp3"
+        pg.mixer.init()
+        pg.mixer.music.load(filepath)
+        pg.mixer.music.play()
 
 if __name__ == '__main__':
 
