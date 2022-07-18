@@ -138,16 +138,15 @@ class Game:
         text_rect.midtop = ((self.width / 2, 5))
         self.screen.blit(text_surface, text_rect)
 
-
         # Draw grid.
         n = (self.height - BLANK_SIZE) // GRID_SIZE + 1
         m = self.width // GRID_SIZE
         for i in range(0, n):
             pg.draw.line(self.screen, LINE_COLOR, (0, i * GRID_SIZE + BLANK_SIZE), 
-                         (self.width, i * GRID_SIZE + BLANK_SIZE), 1)
+                         (self.width, i * GRID_SIZE + BLANK_SIZE), 2)
         for i in range(0, m):
             pg.draw.line(self.screen, LINE_COLOR, (i * GRID_SIZE, BLANK_SIZE), 
-                         (i * GRID_SIZE, (n - 1) * GRID_SIZE + BLANK_SIZE), 1)
+                         (i * GRID_SIZE, (n - 1) * GRID_SIZE + BLANK_SIZE), 2)
 
         pg.display.flip()
 

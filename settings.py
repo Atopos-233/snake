@@ -1,24 +1,24 @@
 # Game options/settings
-TITLE = "Snake"
+TITLE = "Atopos'Snake"
 GRID_SIZE = 30
 BLANK_SIZE = 40
-ROWS = 10
-COLS = 10
-FPS = 12
-FONT_NAME = 'arial'
+ROWS = 20
+COLS = 20
+FPS = 20
+FONT_NAME = 'consolas'
 
 
 # Define colors
-WHITE = (255, 255, 255)
-WHITE1 = (220, 220, 220)
-WHITE2 = (255, 255, 255)
-BLACK = (0, 0, 0)
-RED = (255, 0, 0)
-GREEN = (0, 255, 0)
-BLUE1 = (0, 0, 255)
-BLUE2 = (0, 100, 255)
-YELLOW = (255, 255, 0)
-LIGHTBLUE = (0, 155, 155)
+WHITE = ( 228,230,225 )
+WHITE1 = ( 228,230,225 )
+WHITE2 = ( 228,230,225 )
+BLACK = ( 104,103,137 )
+RED = ( 171,84,90 )
+GREEN = ( 145,173,158 )
+BLUE1 = ( 194,206,220 )
+BLUE2 = ( 159,171,185 )
+YELLOW = ( 214,195,139 )
+LIGHTBLUE = ( 138,149,169 )
 BGCOLOR = BLACK
 LINE_COLOR = BLUE1
 
