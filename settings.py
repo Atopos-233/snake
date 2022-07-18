@@ -5,7 +5,7 @@ BLANK_SIZE = 40
 ROWS = 20
 COLS = 20
 FPS = 20
-FONT_NAME = 'consolas'
+FONT_NAME = 'impactfont'
 
 
 # Define colors
