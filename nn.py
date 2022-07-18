@@ -15,6 +15,14 @@ class Net(nn.Module):
         out: Output layer.
         relu: Activation function of fc1 and fc2.
         sigmoid: Activation function of output.
+
+    Net(
+        (fc1): Linear(in_features=32, out_features=20, bias=True)
+        (fc2): Linear(in_features=20, out_features=12, bias=True)
+        (out): Linear(in_features=12, out_features=4, bias=True)
+        (relu): ReLU()
+        (sigmoid): Sigmoid()
+    )
     """    
     def __init__(self, n_input, n_hidden1, n_hidden2, n_output, weights):
         super(Net, self).__init__()
