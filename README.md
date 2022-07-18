@@ -1,7 +1,7 @@
 # Snake🐍
 🎈*Just do some magic things in summer vacation, due to its dull time*🎈
 ## Todo List🎏
-*1.Rewritte a bit of mini-games*
+*1.Rewritte a bit of mini-games（snake， Tetris）*
 
 *2.Add deeeplearning(CNN, GAN,...)*
 
