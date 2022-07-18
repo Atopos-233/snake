@@ -1,37 +1,7 @@
-# Snake AI
-
-> 本项目参考自：https://github.com/Chrispresso/SnakeAI
-
-<p align="center">
-    <img src="https://github.com/Ackeraa/snake/blob/main/snake.gif"  width="30%" height="30%" />
-</p>
-
-使用遗传算法和简单神经网络实现贪吃蛇，其中
-* 遗传算法进化神经网络的参数
-* 神经网络预测移动方向
-
-## 遗传算法
-* 交叉算子：单点交叉
-* 变异算子：高斯变异
-* 选择算子：轮盘赌选择
-* 适应度函数：(score+1/steps)*100000 
-
-## 神经网络
-* 网络结构：[32, 20, 12, 4]
-* 隐含层激活函数：Relu
-* 输出层激活函数：Sigmoid
-* 输入层包括：
-  * 蛇首方向：[0, 1, 0, 0]
-  * 蛇尾方向：[1, 0, 0, 0]
-  * 蛇首八个方向上
-    * 是否有食物
-    * 是否有自身
-    * 与边缘的距离
-* 输出层表示四个移动方向
-
-## 改进方向
-* 输入的状态可扩展
-* 本项目的适应度函数设计的极其简单，会导致蛇绕很多圈子， 可以加大对步数的惩罚
-* 可以多条蛇竞争，绕弯路的蛇被淘汰的可能性或许会增大，但前提是得有一个好的适应度函数
-* 调整网络结构、交叉、变异算子等
-
+# Snake🐍
+🎈*Just do some magic things in summer vacation, due to its dull time*🎈
+## Todo List🎏
+*1.Rewritte a bit of mini-games*
+*2.Add deeeplearning(CNN, GAN,...)*
+*3.Train models to complete games*
+*4.Using trained model to challenge WeChat Games*
